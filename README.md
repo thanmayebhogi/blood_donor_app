@@ -17,15 +17,11 @@ An Android application to connect blood donors and receivers in emergency situat
 - **Backend:** Firebase Authentication, Firebase Realtime Database
 - **Tools:** Android Studio, Git
 
-### 📸 Screenshots
- |First Page | Registration | Donor List | Search |
-| :---: | :---: | :---: |:---: |
-|<img width="268" height="478" alt="Screenshot 2026-07-17 070734" src="https://github.com/user-attachments/assets/75177768-f5e3-41a7-bf61-953cacbd7ef0" />
-| <img width="332" height="587" alt="Screenshot 2026-07-17 070158" src="https://github.com/user-attachments/assets/e8e19b3f-56e9-44da-b72e-46b5071d79cd" />
- |<img width="327" height="585" alt="Screenshot 2026-07-17 070436" src="https://github.com/user-attachments/assets/0304b08e-5e4a-4c27-bf92-1667f583132b" />
-  | <img width="297" height="527" alt="Screenshot 2026-07-17 070345" src="https://github.com/user-attachments/assets/9657bb42-4521-45b4-8e49-1488faa9275b" />
- |
+### 📸 App Screenshots
 
+| First Page | Registration | Donor List | Search |
+| :---: | :---: | :---: | :---: |
+| <img width="268" alt="first_page" src="https://github.com/user-attachments/assets/b52e8789-6e3f-4f0d-b747-6f19423b71f6" /> | <img width="268" alt="register_page" src="https://github.com/user-attachments/assets/f70d2672-c974-480a-8ef1-9f564862c18a" /> | <img width="268" alt="donor_list" src="https://github.com/user-attachments/assets/c4782bcc-042c-4178-acf0-f4325caced0e" /> | <img width="268" alt="search_page" src="https://github.com/user-attachments/assets/a0da2a00-1868-48fd-bffb-0c58240d3752" /> |
 ### 🚀 How to Run
 1. Clone the repo
 git clone https://github.com/thanmayebhogi/BloodDonor-App-2026.git
