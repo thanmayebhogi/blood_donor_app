@@ -33,5 +33,4 @@ git clone https://github.com/thanmayebhogi/BloodDonor-App-2026.git
 `google-services.json` is not included for security reasons. Create your own Firebase project to test.
 
 ### 👩‍💻 Developed by
-Thanmaye Bhogi - CSE @ ANITS
-Portfolio: thanmaye-portfolio.vercel.app
+Thanmaye Bhogi
