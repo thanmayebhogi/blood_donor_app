@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="25dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="NEW DONOR"
+            android:textColor="#D32F2F"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            android:layout_marginBottom="25dp"/>
+
+        <EditText android:id="@+id/etName" android:layout_width="match_parent" android:layout_height="55dp" android:hint="Full Name" android:layout_marginBottom="10dp"/>
+        <EditText android:id="@+id/etBlood" android:layout_width="match_parent" android:layout_height="55dp" android:hint="Blood Group (e.g. O+)" android:layout_marginBottom="10dp"/>
+        <EditText android:id="@+id/etCity" android:layout_width="match_parent" android:layout_height="55dp" android:hint="City" android:layout_marginBottom="10dp"/>
+        <EditText android:id="@+id/etPhone" android:layout_width="match_parent" android:layout_height="55dp" android:hint="Phone Number" android:inputType="phone" android:layout_marginBottom="10dp"/>
+
+        <!-- NEW FIELD: ELIGIBILITY TRACKING -->
+        <EditText android:id="@+id/etLastDonation" android:layout_width="match_parent" android:layout_height="55dp" android:hint="Last Donation (DD/MM/YYYY)" android:inputType="date" android:layout_marginBottom="20dp"/>
+
+        <Button android:id="@+id/btnSaveDonor" android:layout_width="match_parent" android:layout_height="60dp" android:text="REGISTER AS DONOR" android:backgroundTint="#D32F2F"/>
+
+    </LinearLayout>
+</ScrollView>

@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="20dp"
+    android:background="#FFFFFF">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="CHOOSE SERVICE"
+        android:textColor="#D32F2F"
+        android:textSize="28sp"
+        android:textStyle="bold"
+        android:layout_marginBottom="40dp"/>
+
+    <!-- Option 1: Search (Shows donor details) -->
+    <Button
+        android:id="@+id/btnSearchOption"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:text="SEARCH FOR DONOR"
+        android:backgroundTint="#D32F2F"
+        android:layout_marginBottom="15dp"/>
+
+    <!-- Option 2: Emergency -->
+    <Button
+        android:id="@+id/btnEmergencyOption"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:text="EMERGENCY REQUESTS"
+        android:backgroundTint="@color/material_dynamic_secondary90"
+        android:layout_marginBottom="15dp"/>
+
+    <!-- Option 3: Register -->
+    <Button
+        android:id="@+id/btnRegisterOption"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:text="REGISTER AS DONOR"
+        android:backgroundTint="#D32F2F"
+        android:layout_marginBottom="40dp"/>
+
+    <Button
+        android:id="@+id/btnHomeFromMenu"
+        android:layout_width="180dp"
+        android:layout_height="wrap_content"
+        android:text="BACK TO HOME"
+        android:backgroundTint="#757575"/>
+</LinearLayout>

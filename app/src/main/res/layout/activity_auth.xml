@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:padding="30dp"
+    android:background="#FFFFFF">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="WHAT WOULD YOU\nLIKE TO DO?"
+        android:textColor="#D32F2F"
+        android:textSize="26sp"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:layout_marginBottom="50dp"/>
+
+    <!-- This button leads to Search & Emergency -->
+    <Button
+        android:id="@+id/btnFindBlood"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:backgroundTint="#D32F2F"
+        android:text="FIND BLOOD / SERVICES"
+        android:textColor="#FFFFFF"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:layout_marginBottom="20dp"/>
+
+    <!-- This button leads to Registration -->
+    <Button
+        android:id="@+id/btnDonateBlood"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:backgroundTint="#333333"
+        android:text="DONATE BLOOD / REGISTER"
+        android:textColor="#FFFFFF"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:layout_marginBottom="40dp"/>
+
+    <Button
+        android:id="@+id/btnBackToHome"
+        android:layout_width="180dp"
+        android:layout_height="wrap_content"
+        android:text="BACK TO HOME"
+        android:backgroundTint="#757575"
+        android:textColor="#FFFFFF"/>
+
+</LinearLayout>

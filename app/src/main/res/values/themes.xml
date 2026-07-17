@@ -1,0 +1,9 @@
+<resources>
+    <style name="Theme.BloodDonorApp" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">#D32F2F</item>
+        <item name="android:statusBarColor">#D32F2F</item>
+        <!-- Background color -->
+        <item name="android:windowBackground">@android:color/white</item>
+    </style>
+</resources>

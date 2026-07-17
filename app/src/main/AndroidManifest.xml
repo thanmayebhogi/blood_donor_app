@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <!-- 1. INTERNET PERMISSION (Crucial for Firebase) -->
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="Blood Donor App"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.AppCompat.Light.NoActionBar"
+        tools:targetApi="31">
+
+        <!-- 2. STARTING PAGE: Title + Get Started Button -->
+        <activity
+            android:name=".MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <!-- 3. AUTH SELECTION PAGE (Login/Register Buttons) -->
+        <activity
+            android:name=".AuthActivity"
+            android:exported="false" />
+
+        <!-- 4. MENU SELECTION PAGE (Search or Emergency Option) -->
+        <activity
+            android:name=".MenuActivity"
+            android:exported="false" />
+
+        <!-- 5. SEARCH DIRECTORY PAGE (Dashboard) -->
+        <activity
+            android:name=".DashboardActivity"
+            android:exported="false"
+            android:windowSoftInputMode="adjustPan" />
+
+        <!-- 6. EMERGENCY VIEW PAGE (List of Requests) -->
+        <activity
+            android:name=".EmergencyActivity"
+            android:exported="false" />
+
+        <!-- 7. POST EMERGENCY FORM PAGE (To Enter New Requests) -->
+        <activity
+            android:name=".PostEmergencyActivity"
+            android:exported="false"
+            android:windowSoftInputMode="adjustPan" />
+
+        <!-- 8. REGISTRATION FORM PAGE (For New Donors) -->
+        <activity
+            android:name=".RegisterActivity"
+            android:exported="false"
+            android:windowSoftInputMode="adjustPan" />
+        <activity android:name=".SearchActivity" />
+
+    </application>
+
+</manifest>

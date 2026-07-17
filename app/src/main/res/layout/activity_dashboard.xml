@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="15dp"
+    android:background="#FFFFFF">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="DONOR DIRECTORY"
+        android:textColor="#D32F2F"
+        android:textSize="22sp"
+        android:textStyle="bold"
+        android:layout_marginBottom="5dp"/>
+
+    <TextView
+        android:id="@+id/tvCounter"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Total Donors: 0"
+        android:textColor="#333333"
+        android:textSize="16sp"
+        android:textStyle="italic"
+        android:layout_marginBottom="15dp"/>
+
+    <!-- NEW FEATURE: QUICK FILTER CHIPS -->
+    <HorizontalScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:scrollbars="none"
+        android:layout_marginBottom="10dp">
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <Button android:id="@+id/chipAll" style="?android:attr/buttonStyleSmall" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="All" android:backgroundTint="#757575" android:textColor="#FFFFFF" android:layout_marginEnd="5dp"/>
+            <Button android:id="@+id/chipApos" style="?android:attr/buttonStyleSmall" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="A+" android:backgroundTint="#D32F2F" android:textColor="#FFFFFF" android:layout_marginEnd="5dp"/>
+            <Button android:id="@+id/chipBpos" style="?android:attr/buttonStyleSmall" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="B+" android:backgroundTint="#D32F2F" android:textColor="#FFFFFF" android:layout_marginEnd="5dp"/>
+            <Button android:id="@+id/chipOpos" style="?android:attr/buttonStyleSmall" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="O+" android:backgroundTint="#D32F2F" android:textColor="#FFFFFF" android:layout_marginEnd="5dp"/>
+            <Button android:id="@+id/chipOneg" style="?android:attr/buttonStyleSmall" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="O-" android:backgroundTint="#D32F2F" android:textColor="#FFFFFF" android:layout_marginEnd="5dp"/>
+        </LinearLayout>
+    </HorizontalScrollView>
+
+    <EditText
+        android:id="@+id/searchBar"
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:hint="🔍 Search Blood Group or City"
+        android:background="@android:drawable/edit_text"
+        android:padding="12dp"
+        android:layout_marginBottom="10dp"/>
+
+    <ListView
+        android:id="@+id/donorListView"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:divider="#EEEEEE"
+        android:dividerHeight="1dp"/>
+
+    <Button
+        android:id="@+id/btnHomeFromDash"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_marginTop="10dp"
+        android:text="BACK TO HOME"
+        android:backgroundTint="#757575"
+        android:textColor="#FFFFFF"/>
+
+</LinearLayout>
